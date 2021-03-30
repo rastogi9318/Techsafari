@@ -1,0 +1,89 @@
+$(document).ready(function(){
+	$("#content_type").change(function(){
+		var ctype=$("#content_type").val();
+		if(ctype=="Text")
+		{
+			$("#media").css("display","none")
+			$("#desciption").css("display","block");
+		}
+		else
+		{
+			$("#desciption").css("display","none");
+			$("#media").css("display","block")
+		}
+		if (ctype=="--Content Type--")
+		{
+			$("#desciption").css("display","block");
+			$("#media").css("display","block")
+		}
+	})
+	$("#open").click(function(){
+		$("#sidemenu").css("display","block")
+		$("#open").css("display","none")
+		$("#sidemenu").css("transition","all ease 1s")
+		$("#close").css("display","block")
+	})
+	$("#close").click(function(){
+		$("#sidemenu").css("display","none")
+		$("#close").css("display","none")
+		$("#open").css("display","block")
+		$("#sidemenu").css("transition","all ease 1s")
+	})
+	$(".text").click(function(){
+		$("#text").css("display","block")
+		$("#video").css("display","none")
+		$("#audio").css("display","none")
+		$("#pdf").css("display","none")
+	})
+	$(".video").click(function(){
+		$("#text").css("display","none")
+		$("#video").css("display","block")
+		$("#audio").css("display","none")
+		$("#pdf").css("display","none")
+	})
+	$(".audio").click(function(){
+		$("#text").css("display","none")
+		$("#video").css("display","none")
+		$("#audio").css("display","block")
+		$("#pdf").css("display","none")
+	})
+	$(".pdf").click(function(){
+		$("#text").css("display","none")
+		$("#video").css("display","none")
+		$("#audio").css("display","none")
+		$("#pdf").css("display","block")
+	})
+	$(".tut").click(function(){
+		$(".tut").css("color","orange")
+		$(".exp").css("color","black")
+		$(".exc").css("color","black")
+		$("#tutorial").css("display","block")
+		$("#examples").css("display","none")
+		$("#exercises").css("display","none")
+	})
+	$(".exp").click(function(){
+		$(".tut").css("color","black")
+		$(".exp").css("color","orange")
+		$(".exc").css("color","black")
+		$("#tutorial").css("display","none")
+		$("#examples").css("display","block")
+		$("#exercises").css("display","none")
+	})
+	$(".exc").click(function(){
+		$(".tut").css("color","black")
+		$(".exp").css("color","black")
+		$(".exc").css("color","orange")
+		$("#tutorial").css("display","none")
+		$("#examples").css("display","none")
+		$("#exercises").css("display","block")
+	})
+})
+//$(window).scroll(function(){
+//	if($(this).scrollTop()>45)
+	//{
+		//$(".head2").addClass('a')
+	//}
+	//else{
+		//$(".head2").removeClass('a')
+	//}
+//})
