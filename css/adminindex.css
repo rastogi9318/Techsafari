@@ -1,0 +1,99 @@
+.outer{
+	min-height:150px;
+	
+}
+.header{
+	min-height:50px;
+	background:#00040c;
+}
+.logo{
+	padding:1% 3%;
+}
+.logo span{
+	min-height:50px;
+	color:orange;
+	cursor: none;
+	font-family:Magneto;
+	border:none;
+	border-bottom:3px solid orange;
+	border-radius:50%; 
+	box-shadow:3px 5px white;
+	font-size:30px;
+}
+.logo span i{
+	color:white;
+}
+#menu {
+	background:none;
+	box-shadow:none;
+	text-align:center;
+	border:none;
+	z-index:10;
+}
+#menu ul li a{
+	color:orange;
+	text-shadow:none;
+	font-weight:bold;
+	font-size:15px;
+	transition:background 1s,color 1s;
+}
+#menu ul li {
+	transition:background 1s;
+}
+#menu ul li:hover{
+	background:orange;
+	transition:all ease 1s;
+}
+#menu ul li a:hover{
+	color:white;
+	transition:all ease 1s;
+}
+#menu ul li ul{
+	background:black;
+}
+.dropdown ul li a:hover{
+	background:orange;
+	transition:all ease 1s;
+}
+.footer{
+	margin-top:4%;
+	min-height:40px;
+	line-height:40px;
+	background:#00040c;
+}
+.copyrt{
+	font-size:20px;
+	color:white;
+}
+.copyrt a{
+	text-decoration:none;
+	color:white;
+}
+.main{
+	min-height:532px;
+}
+.head{
+	min-height:380px;
+	margin-top:4px;
+}
+.head1{
+	padding:3% 0%;
+	min-height:60px;
+	background:black;
+	line-height:60px;
+	text-align:center;
+	color:white;
+	font-size:40px;
+}
+.head2{
+	margin-top:4%;
+}
+.d{
+	background:rgba(0,4,12,.8);
+	min-height:340px;
+}
+.d1{
+	min-height:340px;
+	margin:0% 6%;
+	background:rgba(4,55,5,.8);
+}

@@ -1,0 +1,70 @@
+.mydetails{
+min-height:400px;
+}
+.location{
+	min-height:300px;
+	background:rgba(0,0,0,.1);
+	padding:3%;
+	margin-top:2%;
+	margin-left:6%;
+}
+.location h2{
+	color:orange;
+	font-family:Poor Richard;
+	font-weight:bold;
+}
+.location p{
+	font-size:20px;
+	font-family:Century Gothic;
+	color:rgba(0,0,0,.8);
+}
+.query{
+	font-size:45px;
+	font-family:Poor Richard;
+	text-align:center;
+	font-weight:bold;
+	margin-bottom:2%;
+}
+.qmainform{
+	background:rgba(0,0,0,.1);
+	box-shadow:10px 10px 20px black;
+	margin-top:1%;
+	padding:2% 2%;
+}
+
+.qmainform input{
+	margin-bottom:3%;
+	height:40px;
+	font-family:Century Gothic;
+	transition:border 1s;
+}
+.qmainform input[type=submit]{
+	margin-top:2%;
+	box-shadow:none;
+	color:black;
+	background:white;
+	border:2px solid black;
+	border-radius:20px;
+	transition:background .5s,color .5s
+}
+.qmainform input[type=submit]:hover{
+	color:orange;
+	background:#00040c;
+	transition:all ease .5s;
+}
+.qmainform textarea{
+	font-size:20px;
+	font-family:Century Gothic;
+	transition:border 1s;
+}
+.qmainform input,textarea::placeholder{
+	font-family:Century Gothic;
+	font-size:25px;
+}
+.gmap{
+	min-height:500px;
+	margin-bottom:2%;
+}
+.gamp iframe{
+	width:100%;
+}

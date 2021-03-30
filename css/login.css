@@ -1,0 +1,72 @@
+.userlogin{
+	min-height:70px;
+}
+.mainLogin{
+	margin:2% 20%;
+	background:rgba(0,0,0,.1);
+	padding:5% 3%;
+	font-size:25px;
+	font-weight:bold;
+	font-family:Poor Richard;
+}
+.mainLogin input,textarea{
+	margin-bottom:5%;
+	height:40px;
+	font-size:25px;
+	color:rgba(0,0,0,.8);
+	font-family:Century Gothic;
+}
+.mainLogin select{
+	margin-bottom:5%;
+	height:40px;
+	font-size:25px;
+	color:rgba(0,0,0,.8);
+	font-family:Century Gothic;
+}
+.fhead{
+	margin-bottom:10%;
+}
+.fhead span{
+	font-family:Poor Richard;
+	font-size:45px;
+}
+.mainLogin input[type=text]{
+	height:40px;
+	color:rgba(0,0,0,.8);
+	font-family:Century Gothic;
+}
+.mainLogin textarea{
+	font-size:20px;
+	height:50px;
+	font-family:Century Gothic;
+}
+.mainLogin input,textarea::placeholder{
+	font-family:Century Gothic;
+	font-size:25px;
+}
+
+#btn{
+	margin-top:2%;
+	box-shadow:none;
+	color:black;
+	background:white;
+	border:2px solid black;
+	border-radius:20px;
+	transition:background .5s,color .5s;
+	margin:0%  25%;
+	width:50%;
+	box-shadow:none;
+	padding:0% 6%;
+	
+}
+#btn:hover{
+	color:orange;
+	background:#00040c;
+	transition:all ease .5s;
+}
+@media only screen and (max-width: 800px){
+	.mainLogin{
+		margin:0px;
+		width:100%;
+	}
+}
